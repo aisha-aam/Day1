@@ -111,7 +111,7 @@ return product.name.toLowerCase().includes(keyword)||product.category.toLowerCas
 function startApp(){
 var choice;
 while(true){
-choice=prompt("===== NTI Mini Store =====\n1) Add product\n2) Show all products\n3) Show product by ID\n4) Update product\n5) Delete product\n6) Search / Filter\n0) Exit");
+choice=prompt("Ash Store\n1) Add product\n2) Show all products\n3) Show product by ID\n4) Update product\n5) Delete product\n6) Search / Filter\n0) Exit");
 if(choice===null||choice==="0"){
 break;
 }
