@@ -12,13 +12,13 @@ category=category.trim();
 price=Number(price);
 quantity=Number(quantity);
 if(name===""){
-return"Error: name is required";
+return"Error:name is required";
 }
 if(isNaN(price)||price<=0){
-return"Error: invalid price";
+return"Error:invalid";
 }
 if(!Number.isInteger(quantity)||quantity<0){
-return"Error: invalid quantity";
+return"Error:invalid";
 }
 var newProduct={
 id:products.length+1,
@@ -58,7 +58,7 @@ var index=products.findIndex(function(product){
 return product.id===id;
 });
 if(index===-1){
-return"Error: product not found";
+return"Error:not found";
 }
 var product=products[index];
 if(name!==null&&name.trim()!==""){
@@ -89,9 +89,9 @@ var index=products.findIndex(function(product){
 return product.id===id;
 });
 if(index===-1){
-return"Error: product not found";
+return"Error:not found";
 }
-var confirmed=confirm("Are you sure you want to delete this product?");
+var confirmed=confirm("u sure you want to delete product?");
 if(!confirmed){
 return"Delete cancelled";
 }
@@ -117,33 +117,33 @@ break;
 }
 switch(choice){
 case"1":
-var name=prompt("Enter product name:");
-var price=prompt("Enter product price:");
-var category=prompt("Enter product category:");
-var quantity=prompt("Enter product quantity:");
+var name=prompt("name:");
+var price=prompt("price:");
+var category=prompt("category:");
+var quantity=prompt("quantity:");
 console.log(createProduct(name||"",price,category||"",quantity));
 break;
 case"2":
 printProducts(getAllProducts());
 break;
 case"3":
-var id=prompt("Enter product ID:");
+var id=prompt("product ID:");
 console.log(getProductById(id));
 break;
 case"4":
-var updateId=prompt("Enter product ID:");
-var updateName=prompt("Enter new name:");
-var updatePrice=prompt("Enter new price:");
-var updateCategory=prompt("Enter new category:");
-var updateQuantity=prompt("Enter new quantity:");
+var updateId=prompt("product ID:");
+var updateName=prompt("new name:");
+var updatePrice=prompt("new price:");
+var updateCategory=prompt("new category:");
+var updateQuantity=prompt("new quantity:");
 console.log(updateProduct(updateId,updateName,updatePrice,updateCategory,updateQuantity));
 break;
 case"5":
-var deleteId=prompt("Enter product ID:");
+var deleteId=prompt("product ID:");
 console.log(deleteProduct(deleteId));
 break;
 case"6":
-var keyword=prompt("Enter search keyword:");
+var keyword=prompt("search keyword:");
 if(keyword!==null){
 printProducts(filterProducts(keyword));
 }
