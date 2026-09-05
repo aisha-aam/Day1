@@ -1,0 +1,16 @@
+{
+  "name": "ash-npm-package",
+  "version": "1.0.0",
+  "description": "Aisha's own npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "aisha"
+  ],
+  "author": "Aisha Amer",
+  "license": "CS"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ash-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ash-npm-package": "^1.0.0"
+  }
+}
