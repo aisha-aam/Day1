@@ -1,0 +1,146 @@
+.hero {
+  background: linear-gradient(135deg, #eff6ff, #ffffff);
+  padding: 100px 0;
+}
+
+.welcome-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 58px;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.15;
+}
+
+.hero h1 span {
+  color: #2563eb;
+  display: block;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 25px 0;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons .btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+
+.hero-card {
+  background: white;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
+}
+
+.icon-circle {
+  width: 90px;
+  height: 90px;
+  margin: auto auto 20px;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-card h3 {
+  font-size: 28px;
+  color: #111827;
+}
+
+.hero-card p {
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+.features {
+  padding: 90px 0;
+  background: white;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title span {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #111827;
+  margin: 10px 0;
+}
+
+.section-title p {
+  color: #6b7280;
+}
+
+.feature-card {
+  height: 100%;
+  padding: 35px;
+  background: #f8fafc;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero-card {
+    margin-top: 40px;
+  }
+}

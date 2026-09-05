@@ -1,0 +1,86 @@
+.about-hero {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+}
+
+.about-hero span {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #111827;
+  margin: 15px 0;
+}
+
+.about-hero p {
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.about-content {
+  padding: 90px 0;
+  background: white;
+}
+
+.about-box {
+  background: #f8fafc;
+  padding: 45px;
+  border-radius: 20px;
+  border-left: 5px solid #2563eb;
+}
+
+.about-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.about-box h2 {
+  font-size: 32px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  color: #6b7280;
+  line-height: 1.8;
+}
+
+.content-title {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.about-item {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.about-item > span {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.about-item h4 {
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.about-item p {
+  color: #6b7280;
+  margin: 0;
+}
